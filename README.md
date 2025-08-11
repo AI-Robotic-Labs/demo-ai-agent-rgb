@@ -1,7 +1,3 @@
-Sure! Here's the **fixed markdown** version of your README text, with proper headers (`#`), code blocks, and formatting for clarity:
-
----
-
 # RGB Testnet Demo
 
 This is a Node.js example for issuing an RGB token and verifying a consignment on Bitcoin testnet using `rgb-lib`.
