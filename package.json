@@ -1,0 +1,15 @@
+{
+  "name": "rgb-testnet-demo",
+  "version": "1.0.0",
+  "description": "Demo for issuing and verifying RGB tokens on Bitcoin testnet using rgb-lib",
+  "main": "demo-testnet.js",
+  "scripts": {
+    "start": "node demo-testnet.js"
+  },
+  "dependencies": {
+    "rgb-lib": "^0.3.0-beta.2",
+   "bitcoin-core": "^5.0.0"
+  },
+  "author": "22388o",
+  "license": "MIT"
+}
