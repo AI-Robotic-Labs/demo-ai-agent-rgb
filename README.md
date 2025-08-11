@@ -1,27 +1,29 @@
-# RGB Testnet Demo
-
-This is a Node.js example for **issuing an RGB token and verifying a consignment** on Bitcoin testnet using [`rgb-lib`](https://github.com/RGB-Tools/rgb-lib-nodejs).
+Sure! Here's the **fixed markdown** version of your README text, with proper headers (`#`), code blocks, and formatting for clarity:
 
 ---
 
+# RGB Testnet Demo
+
+This is a Node.js example for issuing an RGB token and verifying a consignment on Bitcoin testnet using `rgb-lib`.
+
 ## Prerequisites
 
-- **Node.js** >= 18
-- **npm** or **yarn**
-- **Bitcoin Core** running in testnet mode with `-txindex=1`
-- Some testnet coins in your wallet (via [Bitcoin testnet faucet](https://bitcoinfaucet.uo1.net/))
-- RPC enabled in `bitcoin.conf`:
+* Node.js >= 18
+* npm or yarn
+* Bitcoin Core running in testnet mode with `-txindex=1`
+* Some testnet coins in your wallet (via Bitcoin testnet faucet)
+* RPC enabled in `bitcoin.conf`:
 
+```conf
 testnet=1
 server=1
 rpcuser=bitcoinrpc
 rpcpassword=yourpassword
 rpcallowip=127.0.0.1
 txindex=1
+```
 
-- `rgb-lib` installed via npm
-
----
+* `rgb-lib` installed via npm
 
 ## Install
 
@@ -29,15 +31,19 @@ txindex=1
 git clone https://github.com/YOUR_GITHUB/rgb-testnet-demo.git
 cd rgb-testnet-demo
 npm install
+```
 
-Configure
+## Configure
 
 Copy the example config and edit your RPC details:
 
+```bash
 cp config.json.example config.json
+```
 
-Edit config.json:
+Edit `config.json` to set your Bitcoin Core testnet RPC credentials:
 
+```json
 {
   "bitcoin": {
     "rpc": {
@@ -48,27 +54,31 @@ Edit config.json:
     }
   }
 }
+```
 
-Run the Demo
+## Run the Demo
 
+```bash
 npm start
+```
 
-Expected output:
+### Expected output:
 
+```
 🤖 AI: Starting RGB Testnet Demo...
 🤖 AI: Issuer public key: tpub...
 🤖 AI: Anchor TXID: ...
 🤖 AI: Consignment saved: demo-consignment.rgb
 🤖 AI: ✅ Verification succeeded
+```
 
-License
+## License
 
 MIT
 
-
 ---
 
-## 7️⃣ How to Run Locally
+## How to Run Locally
 
 ```bash
 # 1. Clone repo
@@ -84,3 +94,9 @@ cp config.json.example config.json
 
 # 4. Start demo
 npm start
+```
+
+---
+
+Let me know if you want me to prepare the full ready-to-publish GitHub repo files, including `.gitignore`, `package.json`, and the demo script!
+
