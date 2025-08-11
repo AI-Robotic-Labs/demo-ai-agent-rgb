@@ -24,7 +24,7 @@ txindex=1
 ## Install
 
 ```bash
-git clone https://github.com/YOUR_GITHUB/rgb-testnet-demo.git
+git clone https://github.com/AI-Robotic-Labs/demo-ai-agent-rgb.git
 cd rgb-testnet-demo
 npm install
 ```
@@ -78,7 +78,7 @@ MIT
 
 ```bash
 # 1. Clone repo
-git clone https://github.com/YOUR_GITHUB/rgb-testnet-demo.git
+git clone https://github.com/AI-Robotic-Labs/demo-ai-agent-rgb.git
 cd rgb-testnet-demo
 
 # 2. Install dependencies
